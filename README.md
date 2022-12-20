@@ -13,7 +13,7 @@ The goal of meu.golem is to …
 You can install the development version of meu.golem like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# FILL THIS IN!
 ```
 
 ## Example
