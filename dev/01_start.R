@@ -40,8 +40,8 @@ usethis::use_readme_rmd(open = FALSE)
 usethis::use_git()
 
 ## Add helper functions ----
-golem::use_utils_ui(with_test = TRUE)
-golem::use_utils_server(with_test = TRUE)
+# golem::use_utils_ui(with_test = TRUE)
+# golem::use_utils_server(with_test = TRUE)
 
 # You're now set! ----
 
