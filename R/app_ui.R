@@ -10,7 +10,12 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("meu.golem")
+      h1("Meu primeiro golem"),
+      sliderInput("primeiro_input", min = 0, max = 10, value = 5, label = "selecione um valor"),
+
+      shiny::hr(),
+
+      mod_conteudo_novo_ui("conteudo_novo_1")
     )
   )
 }
