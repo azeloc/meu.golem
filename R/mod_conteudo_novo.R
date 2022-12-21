@@ -10,7 +10,7 @@
 mod_conteudo_novo_ui <- function(id){
   ns <- NS(id)
   tagList(
-    h1("Conteúdo novo"),
+    h1("Conte\u00FAdo novo"),
     sliderInput(ns("segundo_input"), min = 0, max = 10, value = 5, label = "selecione um valor"),
 
 
@@ -27,7 +27,7 @@ mod_conteudo_novo_server <- function(id){
     ns <- session$ns
 
     output$valor_selecionado_2 <- renderText(
-      paste0(c("o valor que você selecionou foi ", input$segundo_input))
+      paste0(c("o valor que voc\u00EA selecionou foi ", input$segundo_input))
     )
 
   })

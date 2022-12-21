@@ -12,7 +12,7 @@ app_ui <- function(request) {
     fluidPage(
       h1("Meu primeiro golem"),
       sliderInput("primeiro_input", min = 0, max = 10, value = 5, label = "selecione um valor"),
-
+      textOutput("valor_selecionado"),
       shiny::hr(),
 
       mod_conteudo_novo_ui("conteudo_novo_1")
