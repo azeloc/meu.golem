@@ -8,7 +8,7 @@
 
 The goal of meu.golem is to …
 
-## Installation
+## Installationn
 
 You can install the development version of meu.golem like so:
 
